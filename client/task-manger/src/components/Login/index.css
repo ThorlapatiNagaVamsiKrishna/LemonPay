@@ -1,0 +1,125 @@
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.main-heading {
+    color: #FFFFFF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+.form-container {
+    padding: 30px;
+    width: 45%;
+    margin: 25px;
+    background: linear-gradient(135deg, #f6f6f6, #f1f1f1);
+    border-radius: 8px;
+}
+
+.input-element-conatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-element-checkbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.label-element {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+} 
+
+.input-element {
+    border: 2px solid rgb(62, 55, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 98%;
+    height: 45px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.checkbox {
+    margin: 5px;
+    height: 20px;
+    width: 30px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.login-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px;
+    margin-left: 0px;
+    text-align:  'center';
+    font-family: 'Verdana';
+    color: purple;
+    font-weight: 'bold'
+}
+
+.main-heading-span{
+    color: #DBD55B;
+}
+
+.login-button {
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    border-width: 0;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.forget-button {
+    background-color: transparent;
+    border-width: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register {
+    color: #FFFFFF;
+    margin-top:  20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and ( max-width : 768px ) {
+    .main-content-container {
+        display: none;
+    }
+    .login-container {
+        justify-content: center;
+    }
+
+    .form-container {
+        width: 100%;
+        background-color: #5e5c38;
+    }
+    
+}

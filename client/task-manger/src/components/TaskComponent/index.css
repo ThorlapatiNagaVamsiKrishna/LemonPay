@@ -1,0 +1,72 @@
+.add-button {
+    background-color: rgb( 30 59 163);
+    color: #ffffff;
+    height: 40px;
+    width: 200px;
+    border-width: 0px;
+    border-radius: 50px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.task-heading {
+    color: rgb( 30 59 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+}
+
+.heading-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb( 30 59 163);
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.list {
+    color: black;
+    box-shadow: 0px 0px 16px 0px rgb(62, 61, 61);
+    padding: 20px 0px;
+}
+
+.popup-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .popup-menu button {
+    border: none;
+    background: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .popup-menu button:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+  }
